@@ -1,0 +1,58 @@
+h1{
+  background-color: Red;
+  color: white;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+u{
+color: cyan;
+}
+
+* footer {
+  background-color: grey;
+  color white;
+  padding: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 950px;
+  margin: 3px;
+}
+footer u {
+  background-color: grey;
+}
+
+p{
+  color: white;
+}
+
+.types {
+  background-color: darkcyan;
+  border-radius: 35px;
+  padding: 30px;
+  display: inline-block;
+  color: cyan;
+  width: 200px;
+  vertical-align: top;
+
+}
+
+.matter {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  border-radius: 35px;
+  display: inline-block;
+  width: 600px;
+  margin-left: 40px;
+  /*height: 700px;*/
+  /*width: 1500px;*/
+}
+
+
+#wrapper {
+  background-color: blueviolet;
+  padding: 10px;
+  float: right;
+  width: 970px;
+}
