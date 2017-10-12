@@ -1,0 +1,115 @@
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.lamode {
+  display: inline-block;
+  width: 450px;
+  background-color: white;
+  height: 619.97px;
+  width: 400px;
+  margin: 10px;
+}
+
+#projects h3{
+  background-color: DimGrey ;
+  margin: 0px;
+  padding: 10px;
+  color: white;
+}
+
+#projects h4 {
+  background-color: DimGrey ;
+  margin: 0px;
+  padding: 10px;
+  color: white;
+}
+
+
+.family {
+  display: inline-block;
+  width: 450px;
+  background-color: white;
+  height: 619.97px;
+  width: 400px;
+  margin: 10px;
+}
+
+.fivel {
+  display: inline-block;
+  width: 450px;
+  background-color: white;
+  height: 619.97px;
+  width: 400px;
+  margin: 10px;
+}
+#heading {
+  background-color: NavajoWhite  ;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+#heading h1{
+  display: inline-block;
+  width: 1100px;
+  font-style: italic;
+  background-color: NavajoWhite
+
+}
+#heading h2{
+  display: inline-block;
+  background-color: NavajoWhite
+
+}
+/*.all {
+  background-color: plum;
+  height: 2000px;
+}*/
+.aboutme{
+  display: inline-block;
+  width: 589px;
+  vertical-align: top;
+  margin: 20px;
+  font-size: 150%;
+  height: 407px;;
+  background-color: linen;
+}
+
+.aboutme h3 {
+  background-color: DimGrey ;
+  margin: 0px;
+  padding: 10px;
+  color: white;
+}
+
+.aboutme p {
+
+  background: linen;
+}
+.aboutme a{
+  background-color: linen;
+}
+
+#bio img {
+  margin: 20px;
+  border-style: solid;
+  border-color: grey;
+}
+
+.all {
+  background: DarkRed;
+  width: 1282px;
+
+}
