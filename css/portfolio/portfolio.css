@@ -35,14 +35,14 @@
 }
 
 #projects h3{
-  background-color: DimGrey ;
+  background-color: #8a8895 ;
   margin: 0px;
   padding: 10px;
   color: white;
 }
 
 #projects h4 {
-  background-color: DimGrey ;
+  background-color: #8a8895 ;
   margin: 0px;
   padding: 10px;
   color: white;
@@ -66,7 +66,7 @@
   margin: 10px;
 }
 #heading {
-  background-color: NavajoWhite  ;
+  background-color: #f6f6f6  ;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -77,12 +77,12 @@
   display: inline-block;
   width: 886px;
   font-style: italic;
-  background-color: NavajoWhite
+  background-color: #f6f6f6
 
 }
 #heading h2{
   display: inline-block;
-  background-color: NavajoWhite;
+  background-color: #f6f6f6;
 
 
 }
@@ -94,11 +94,11 @@
   margin: 20px;
   font-size: 150%;
   height: 407px;;
-  background-color: linen;
+  background-color: #e2d6e1;
 }
 
 .aboutme h3 {
-  background-color: DimGrey ;
+  background-color: #8a8895 ;
   margin: 0px;
   padding: 10px;
   color: white;
@@ -106,10 +106,10 @@
 
 .aboutme p {
 
-  background: linen;
+  background: #e2d6e1;
 }
 .aboutme a{
-  background-color: linen;
+  background-color: #e2d6e1;
 }
 
 #bio img {
