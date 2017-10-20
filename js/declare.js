@@ -10,7 +10,7 @@ var string3 = "leo";
 var bool1 = false;
 var bool2 = true;
 
-var undef = "asd';
+// var undef = "asd';
 
 console.log ("the first number is :", num1);
 console.log ("the second number is :", num2);
@@ -24,4 +24,4 @@ console.log ("the third string is :", string3);
 console.log ("first bool is :", bool1);
 console.log ("second bool is:", bool2);
 
-console.log ("undefined value is :",undef);
+// console.log ("undefined value is :",undef);
