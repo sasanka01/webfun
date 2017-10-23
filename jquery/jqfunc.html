@@ -93,6 +93,29 @@
 
             $( "div" ).html("<span class='blue'>Hello <b>Again</b></span>" );
 
+            $('.attr').click(function(){
+			var classVal = $("#attr").attr("class")
+			$('#attr').append(classVal)
+		    })
+		    $('.attr2').click(function(){
+			$("#attr").attr("class", "red")
+		    })
+		    $('.val').click(function(){
+			console.log($("#val").val())
+		    })
+		    $('.val2').click(function(){
+			$('#val').val("minh")
+		    })
+		    $('.text').click(function(){
+			$("#text").text("hello")
+		    })
+		    var ele = $("#data")
+		    $.data(ele, "name", "minh")
+		    $('.data').click(function(){
+			var value = $.data(ele,"name")
+			$("#data").after(value)
+		    })
+
 
           });
        </script>
@@ -124,6 +147,32 @@
         <div></div>
         <div></div>
         <div></div>
+        <fieldset>
+                <legend>attr</legend>
+                <p>Retreives or set an attribute of an element</p>
+                <p class="green" id="attr">I am a p tag with the class of green. Class=</p>
+                <button class="attr">Click to retreive the class</button>
+                <button class="attr2">click to change the class attribute to red</button>
+            </fieldset>
+            <fieldset>
+                <legend>val</legend>
+                <p>Retreives or set a value of an input</p>
+                <input type="text" name="name" id="val">
+                <button class="val">Click to retreive the value of the input. Look in your console</button>
+                <button class="val2">click to change the value of the input to "minh"</button>
+            </fieldset>
+            <fieldset>
+                <legend>text</legend>
+                <p>replace the text of an element</p>
+                <p id="text">My text will be replaced</p>
+                <button class="text">Click to replace the text with "hello"</button>
+            </fieldset>
+            <fieldset>
+                <legend>data</legend>
+                <p>stores a data value in that element(hidden in javascript)</p>
+                <p id="data">I have a name hidden in me. What is it?</p>
+                <button class="data">Click to retreive the data</button>
+            </fieldset>
       
 
     </body>
