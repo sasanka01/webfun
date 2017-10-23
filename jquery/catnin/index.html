@@ -10,32 +10,14 @@
         // $('img').click(function() {
         //   $(this).attr('data-alt-src')
         // });
-        $('img.one').click(function () {
+        $('img').click(function () {
           // $(this).attr('data-alt-src');
-          $(this).attr('src', 'cat0.png');
+          $(this).attr('temp', $(this).attr('src'));
+          $(this).attr('src',$(this).attr('data-alt-src'));
+          $(this).attr('data-alt-src',$(this).attr('temp'));
 
         });
 
-        $('img.two').click(function () {
-          // $(this).attr('data-alt-src');
-          $(this).attr('src', 'cat1.png');
-
-        });
-        $('img.three').click(function () {
-          // $(this).attr('data-alt-src');
-          $(this).attr('src', 'cat2.png');
-
-        });
-        $('img.four').click(function () {
-          // $(this).attr('data-alt-src');
-          $(this).attr('src', 'cat3.png');
-
-        });
-        $('img.five').click(function () {
-          // $(this).attr('data-alt-src');
-          $(this).attr('src', 'cat4.png');
-
-        });
 
 
 
@@ -43,10 +25,10 @@
     </script>
   </head>
   <body>
-<img class="one" src='ninja0.png' data-alt-src='cat0.png'/>
-<img class="two" src='ninja1.png' data-alt-src='cat1.png'/>
-<img class="three" src='ninja2.png' data-alt-src='cat2.png'/>
-<img class="four" src='ninja3.png' data-alt-src='cat3.png'/>
-<img class="five" src='ninja4.png' data-alt-src='cat4.png'/>
+<img  src='ninja0.png' data-alt-src='cat0.png'/>
+<img  src='ninja1.png' data-alt-src='cat1.png'/>
+<img  src='ninja2.png' data-alt-src='cat2.png'/>
+<img  src='ninja3.png' data-alt-src='cat3.png'/>
+<img  src='ninja4.png' data-alt-src='cat4.png'/>
   </body>
 </html>
