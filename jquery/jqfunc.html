@@ -1,0 +1,130 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Jquery</title>
+      <script src="jquery-3.2.1.min.js"></script>
+      <style>
+      
+      .highlight {
+        background: yellow;
+        }
+        
+        .blue {
+        color: blue;
+        }
+        
+        .under {
+        text-decoration: underline
+        }
+
+      </style>
+      <script>
+          $(document).ready(function(){
+
+            $('button').css("display","block");
+
+            $('p.click').click(function() {
+                console.log('This has been clicked.')
+            });
+
+            $('p.hidden').click(function(){
+                $('p.hidden').hide("slow", function(){
+                    // alert("Hiding is complete");
+                });
+            });
+
+            $('p.hidden').click(function(){
+                $('p.hidden').show ("slow");
+                
+                
+            });
+
+            $('button.toggle').click(function(){
+                $('img.toggle').toggle("slow");
+        
+            })
+
+            $('button.slidedown').click(function(){
+                if ($('img.slidedown').is(":hidden")) {
+                    $('img.slidedown').slideDown("slow");
+                }  else {
+                    $('img.slidedown').hide();
+                }
+                
+            });
+            $('button.slideup').click(function(){
+                if ($('img.slideup').is(":hidden")) {
+                    $('img.slideup').show("slow");
+                }  else {
+                    $('img.slideup').slideUp();
+                }
+                
+            });
+
+            $('button.slidetoggle').click(function(){
+
+                $('img.slidetoggle').slideToggle("slow");
+
+            });
+
+            $('button.fadein').click(function(){
+                if ($('img.fadein').is(":hidden")) {
+                    $('img.fadein').fadeIn(3000);
+                }  else {
+                    $('img.fadein').hide();
+                }
+                
+            });
+
+            $('button.fadeout').click(function(){
+                $('img.fadeout').fadeOut("slow");
+                    
+            });
+
+            $('p.addclass').addClass("highlight");
+
+            $('p.blue').removeClass('under');
+
+            $('.before').before("<h2>Checking before</h2>");
+
+            $('.after').after("<h2>Checking after</h2>");
+
+            $('.append').append("<strong>SaSanka</strong>");
+
+            $( "div" ).html("<span class='blue'>Hello <b>Again</b></span>" );
+
+
+          });
+       </script>
+    </head>
+    <body>
+        <p class="click">We are clicking now </p>
+        <p class="hidden">We are hiding the text</p>
+        <button class="toggle">Click the image</button>
+        <img class="toggle" src="mj.jpg" alt="MJ">
+        <button class="slidedown">We are sliding down the image</button>
+        <img class="slidedown" src="ninja.png" alt="MJ">
+        <button class="slideup">We are sliding up the image</button>
+        <img class="slideup" src="client_server.jpg" alt="MJ">
+        <button class="slidetoggle">We are slidetoggling the image</button>
+        <img class="slidetoggle" src="globe.png" alt="MJ">
+        <button class="fadein">We are fading in the image</button>
+        <img class="fadein" src="phone.png" alt="MJ">
+        <button class="fadeout">We are fading out the image</button>  
+        <img class="fadeout" src="home.png" alt="MJ">
+        <p class="addclass">We are adding class </p>
+        <p class="blue under">Hello</p>
+        <p class="blue under">and</p>
+        <p class="blue under">then</p>
+        <p class="blue under">Goodbye</p>
+        <p class="before">Hello</p>
+        <p class="after">Goodbye</p>
+        <p class="append">Hello, my name is : </p>
+        <span>Hello</span>
+        <div></div>
+        <div></div>
+        <div></div>
+      
+
+    </body>
+  </html>
