@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Disappering Ninja</title>
+    <style >
+
+      .fotos {
+        display: inline-block;
+      }
+
+        img {
+        height: 350px;
+        width: 350px;
+        margin: 5px;
+        padding: 5px;
+        float: left;
+        display: inline-block;
+      }
+
+      button {
+        display: block;
+        width: 75px;
+        height: 50px;
+        background-color: green;
+      }
+    </style>
+    <script src="jquery-3.2.1.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+
+        $('img').click(function () {
+          $(this).hide();
+        });
+
+        $('button').click(function() {
+          $('img').show('slow');
+
+        })
+
+      });
+    </script>
+  </head>
+  <body>
+    <div class="fotos">
+      <img src="phone.png" alt="phone">
+      <img src="mj.jpg" alt="mj">
+      <img src="ninja.png" alt="ninja">
+      <img src="globe.png" alt="globe">
+      <img src="ad_background.png" alt="cs">
+      <img src="client_server.jpg" alt="phone">
+      <img src="ajax.png" alt="phone">
+      <img src="angular.png" alt="phone">
+  </div>
+    <button type="button">Restore!</button>
+  </body>
+</html>
