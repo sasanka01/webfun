@@ -1,0 +1,17 @@
+div {
+    display: block;
+    vertical-align: top;
+    width: 48%;
+}
+
+
+.pokeinfo {
+  border: 5px solid red;
+  height: 360px;
+  width: 360px;
+
+}
+
+.img {
+  display: inline-block;
+}
