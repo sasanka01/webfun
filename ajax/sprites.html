@@ -6,9 +6,8 @@
     <script src="jquery-3.2.1.min.js"></script>
     <script>
       $(document).ready(function() {
-         HTMLstring = ""
-        for (var i = 1; i <= 150; i++){
-          HTMLstring = HTMLstring + '<img src ="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/'+[i]+'.png" >'
+        for (var i = 1; i <= 10; i++){
+          HTMLstring = '<img src ="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/'+[i]+'.png" >'
           $('body').append(HTMLstring);
         }
 
